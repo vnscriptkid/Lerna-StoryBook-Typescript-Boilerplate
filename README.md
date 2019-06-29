@@ -10,8 +10,8 @@
 * lerna create package-name
 * Mimic config from the Button component
 package
-└───  lib/ : Keep code that has been built
 
+└───  lib/ : Keep code that has been built
 └───  src/ : Keep all the code in development
 
 └───────── │   *.story.tsx : File used by StoryBook
