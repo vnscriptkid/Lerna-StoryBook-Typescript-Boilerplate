@@ -9,9 +9,13 @@
 ### Add a new Component
 * lerna create package-name
 * Mimic config from the Button component
--- /lib : Keep code that has been built
--- /src : Code in developent
------- /*.story.tsx : File used by StoryBook
--- /package.json : Add scripts: { "tsc":"tsc" }
--- /tsconfig.json : Copy from Button example
+package
+│   README.md
+│   tsconfig.json : Copy from Button example
+│
+└─── lib/ : Keep code that has been built
+│  
+└─── src/
+    │   *.story.tsx : File used by StoryBook
+    │   ...
 * lerna run tsc : Build code from /src to /lib
