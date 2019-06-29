@@ -20,9 +20,16 @@ const StyledBtn = styled.button`
     color: white;
 `;
 
-export const MyBtn = (): any => (
-    <StyledBtn>Good Job</StyledBtn>
-);
+interface BtnProps {
+    borderColor: string;
+}
+
+export const MyBtn = (props: BtnProps): any => {
+    const { borderColor } = props;
+    return (
+        <StyledBtn style={{ borderColor }}>Good Job</StyledBtn>
+    );
+};
 
 const noop = (): void => { };
 export const Button: React.FunctionComponent<Props> = (props: Props): any => {

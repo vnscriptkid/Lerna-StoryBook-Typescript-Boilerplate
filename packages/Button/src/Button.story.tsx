@@ -1,7 +1,13 @@
 import { storiesOf } from "@storybook/react";
 import { MyBtn } from "./Button";
 import * as React from 'react';
-// import { text, boolean } from "@storybook/addon-knobs/react";
+import { text } from "@storybook/addon-knobs/react";
+import { withKnobs } from "@storybook/addon-knobs/react";
+// const stories = storiesOf('Storybook Knobs', module);
+
+// Add the `withKnobs` decorator to add knobs support to your stories.
+// You can also configure `withKnobs` as a global decorator.
+// stories.addDecorator(withKnobs);
 
 // storiesOf('Button', module)
 //     .add('with text', (): ReactElement => (
@@ -15,6 +21,7 @@ import * as React from 'react';
 //     ));
 
 storiesOf('My Custom Btn', module)
+    .addDecorator(withKnobs)
     .add('default', (): React.ReactElement => (
-        <MyBtn></MyBtn>
+        <MyBtn borderColor={text('Border Color', 'orange')}></MyBtn>
     ));

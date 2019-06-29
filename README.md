@@ -23,6 +23,12 @@ package
 
 └───  tsconfig.json : Copy from Button example
 
-└───  package.json : Add scripts: { "tsc": "tsc" }
-
+└───  package.json : Add "scripts": { "tsc": "tsc" }
+                     "main" field points to entry point (Run when we call require('lib-name'))
 * lerna run tsc : Build code from /src to /lib
+
+
+### References
+https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-jest/
+https://blog.logrocket.com/setting-up-a-monorepo-with-lerna-for-a-typescript-project-b6a81fe8e4f8/
+
