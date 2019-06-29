@@ -29,6 +29,8 @@ package
 
 
 ### References
-https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-jest/
-https://blog.logrocket.com/setting-up-a-monorepo-with-lerna-for-a-typescript-project-b6a81fe8e4f8/
+* https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-jest/
+* https://blog.logrocket.com/setting-up-a-monorepo-with-lerna-for-a-typescript-project-b6a81fe8e4f8/
+* https://github.com/garmeeh/lerna-starter/blob/master/package.json
+* https://dev.to/stereobooster/typescript-monorepo-for-react-project-3cpa
 
