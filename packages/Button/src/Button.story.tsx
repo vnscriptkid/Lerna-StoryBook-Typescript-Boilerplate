@@ -1,6 +1,6 @@
 import { storiesOf } from "@storybook/react";
 import { MyBtn } from "./Button";
-import React, { ReactElement } from 'react';
+import * as React from 'react';
 // import { text, boolean } from "@storybook/addon-knobs/react";
 
 // storiesOf('Button', module)
@@ -15,6 +15,6 @@ import React, { ReactElement } from 'react';
 //     ));
 
 storiesOf('My Custom Btn', module)
-    .add('default', (): ReactElement => (
+    .add('default', (): React.ReactElement => (
         <MyBtn></MyBtn>
     ));

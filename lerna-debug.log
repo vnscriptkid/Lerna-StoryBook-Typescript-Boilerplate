@@ -1,16 +1,10 @@
-0 silly argv { _: [ 'create' ],
+0 silly argv { _: [ 'add' ],
+0 silly argv   globs: [],
 0 silly argv   lernaVersion: '3.15.0',
 0 silly argv   '$0': 'C:\\Users\\vnscr\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   name: 'Button' }
+0 silly argv   pkg: 'Input' }
 1 notice cli v3.15.0
 2 verbose rootPath D:\workspace\vmodev\tsbabel
-3 error Error: Command failed: git config --get user.name
-3 error
-3 error
-3 error     at makeError (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
-3 error     at Function.module.exports.sync (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:338:15)
-3 error     at Object.execSync (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\child-process\index.js:26:16)
-3 error     at CreateCommand.gitConfig (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\create\index.js:181:34)
-3 error     at CreateCommand.initialize (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\create\index.js:103:46)
-3 error     at Promise.resolve.then (C:\Users\vnscr\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\command\index.js:271:24)
+3 error Error: 404 Not Found - GET https://registry.npmjs.org/Input - Not found
+3 error     at res.buffer.catch.then.body (D:\workspace\vmodev\tsbabel\node_modules\@evocateur\npm-registry-fetch\check-response.js:104:15)
 3 error     at <anonymous>
