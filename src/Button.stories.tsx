@@ -12,4 +12,4 @@ storiesOf('Button', module)
     ))
     .add('with label', (): ReactElement => (
         <Button label="Hello" />
-    ))
+    ));
