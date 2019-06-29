@@ -10,7 +10,7 @@
 * lerna create package-name
 * Mimic config from the Button component
 package
-│   README.md
+│ |  README.md
 │   tsconfig.json : Copy from Button example
 │
 └─── lib/ : Keep code that has been built
@@ -18,4 +18,8 @@ package
 └─── src/
     │   *.story.tsx : File used by StoryBook
     │   ...
+    
+|
+|
+|
 * lerna run tsc : Build code from /src to /lib
