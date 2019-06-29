@@ -24,7 +24,7 @@
   },
   "scripts": {
     "storybook": "start-storybook",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "lint": "tsc --noEmit && eslint packages/**/*.{js,ts,tsx} --quiet --fix",
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
