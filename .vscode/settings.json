@@ -1,0 +1,22 @@
+{
+  "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": false,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "editor.snippetSuggestions": "top",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+}
