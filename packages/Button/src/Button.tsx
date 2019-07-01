@@ -44,7 +44,3 @@ export const Button: React.FunctionComponent<Props> = (props: Props): any => {
         </div>
     );
 };
-
-const obj = { name: 'thanh', age: 22, job: 'dev' };
-
-console.log(obj);
